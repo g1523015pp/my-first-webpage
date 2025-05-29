@@ -26,9 +26,26 @@
       text-shadow: 1px 1px 3px #d67891;
     }
 
+    nav {
+      text-align: center;
+      padding: 1em;
+      background: #ffe4ec;
+      font-size: 1.1em;
+    }
+
+    nav a {
+      color: #d63384;
+      margin: 0 1em;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
     main {
       padding: 2em;
-      max-width: 900px;
+      max-width: 1000px;
       margin: 0 auto;
     }
 
@@ -43,6 +60,10 @@
     .section h2 {
       color: #e75480;
       margin-top: 0;
+    }
+
+    .section p {
+      font-size: 1.1em;
     }
 
     .section img {
@@ -62,32 +83,56 @@
   </style>
 </head>
 <body>
+
   <header>
     <h1>いぬってほんとうにかわいい♡</h1>
   </header>
 
+  <nav>
+    <a href="#eyes">おめめ</a>
+    <a href="#fluff">もふもふ</a>
+    <a href="#tail">しっぽ</a>
+    <a href="#voice">声</a>
+    <a href="#sleep">寝顔</a>
+  </nav>
+
   <main>
-    <div class="section">
+    <div class="section" id="eyes">
       <h2>その1：くりくりのおめめ 👀</h2>
       <p>わんこの目はまるくてウルウルしていて、見つめられるとキュンとしちゃう！</p>
       <img src="https://images.unsplash.com/photo-1601758003122-58e5f9c83633?auto=format&fit=crop&w=900&q=80" alt="くりくりの目の犬">
     </div>
 
-    <div class="section">
+    <div class="section" id="fluff">
       <h2>その2：ふわふわの毛並み 🐶</h2>
       <p>もふもふの毛はなでたくなるし、ぎゅっとしたくなる可愛さ…！</p>
       <img src="https://images.unsplash.com/photo-1602781146579-6aa0e9e70267?auto=format&fit=crop&w=900&q=80" alt="ふわふわの犬">
     </div>
 
-    <div class="section">
+    <div class="section" id="tail">
       <h2>その3：しっぽフリフリ 🐾</h2>
       <p>うれしいときにしっぽをふってくれる姿が、もうたまらない…！</p>
       <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=900&q=80" alt="しっぽをふる犬">
     </div>
+
+    <div class="section" id="voice">
+      <h2>その4：キュンとなく声 🐕</h2>
+      <p>「ワン！」じゃなくて、「くぅ〜ん」「きゅう〜ん」みたいな甘え声、聞いたらメロメロ！</p>
+      <img src="https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?auto=format&fit=crop&w=900&q=80" alt="犬が鳴いているような写真">
+    </div>
+
+    <div class="section" id="sleep">
+      <h2>その5：すやすや寝顔 💤</h2>
+      <p>すぴーすぴー…って寝てる姿を見ると、こっちも幸せな気持ちになるよね。</p>
+      <img src="https://images.unsplash.com/photo-1598137259011-3bb073e6b75b?auto=format&fit=crop&w=900&q=80" alt="犬の寝顔">
+    </div>
   </main>
 
   <footer>
-    © 2025 いぬってかわいいプロジェクト
+    © 2025 いぬってかわいいプロジェクト<br>
+    写真提供：Unsplash（フリー素材）<br>
+    このページは愛犬家によってつくられました♡
   </footer>
+
 </body>
 </html>
